@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Home - Goodwill Delaware</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	
 </head>
 <body>
 	
@@ -22,17 +21,19 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
-				<li class="nav-item active"><a class="nav-link" href="#">Home
+				<li class="nav-item active"><a class="nav-link" href="home.jsp">Home
 						<span class="sr-only">(current)</span>
 				</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Rewards</a>
+				<li class="nav-item"><a class="nav-link" href="donate.jsp">Donate</a>
+				<!-- Pickup/Dropoff -->
 				</li>
-				<li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-				<li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a>
+				<li class="nav-item"><a class="nav-link" href="profile.jsp">Profile</a></li>
+				<li class="nav-item"><a class="nav-link" href="about.jsp">About</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
+	
 	<div id="page-wrapper" class="container" style="border: 1px solid red;">
 		<div id="featured-items" class="carousel slide" data-ride="carousel">
 		<h1>Featured Items</h1>
@@ -41,31 +42,31 @@
 					<img class="d-block w-100"
 						width="100"
 						height="100"
-						src="ui-stuff/bed.svg"
+						src="../../ui/img/icons/bed.svg"
 						alt="First slide">
 				</div>
 				<div class="carousel-item">
 					<img class="d-block w-100"
 						width="100"
 						height="100"
-						src="ui-stuff/clock.svg"
+						src="../../ui/img/icons/clock.svg"
 						alt="Second slide">
 				</div>
 				<div class="carousel-item">
 					<img class="d-block w-100"
 						width="100"
 						height="100"
-						src="ui-stuff/cutlery.svg"
+						src="../../ui/img/icons/cutlery.svg"
 						alt="Third slide">
 				</div>
 			</div>
-			<a class="carousel-control-prev" href="#featured-items"
+			<a class="carousel-control-prev" href="#featured-vitems"
 				role="button" data-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="sr-only">Previous</span>
 			</a>
 			<a class="carousel-control-next"
-				href="#carouselExampleControls" role="button" data-slide="next">
+				href="#featured-items" role="button" data-slide="next">
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
 			</a>
