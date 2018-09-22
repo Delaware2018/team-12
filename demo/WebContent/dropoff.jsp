@@ -25,7 +25,6 @@
 				width: 100%; /* The width is the width of the web page */
 			}
 			</style>
-			<h3>My Google Maps Demo</h3>
 			<!--The div element for the map -->
 			<div id="map"></div>
 			<script>
@@ -33,13 +32,13 @@
 				function initMap() {
 					// The location of Uluru
 					var uluru = {
-						lat : -25.344,
-						lng : 131.036
+						lat : 39.730013,
+						lng : -75.5995241
 					};
 					// The map, centered at Uluru
 					var map = new google.maps.Map(document
 							.getElementById('map'), {
-						zoom : 4,
+						zoom : 9,
 						center : uluru
 					});
 					// The marker, positioned at Uluru

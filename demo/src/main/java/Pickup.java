@@ -10,16 +10,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class Dropoff
+ * Servlet implementation class Pickup
  */
-@WebServlet("/Dropoff")
-public class Dropoff extends HttpServlet {
+@WebServlet("/Pickup")
+public class Pickup extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Dropoff() {
+    public Pickup() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -28,8 +28,8 @@ public class Dropoff extends HttpServlet {
 	 * @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String location = request.getParameter("location");
-		System.out.println(location);
+		String address = request.getParameter("address");
+		System.out.println(address);
 		RequestDispatcher dispatch = null;
 		//if ("location" == location) {
 			dispatch = getServletContext().getRequestDispatcher("/index.jsp");

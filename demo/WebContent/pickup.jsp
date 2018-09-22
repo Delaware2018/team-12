@@ -14,7 +14,7 @@
 			<div class="form-group">
 				<label for="Address">Address: </label>
 				<input type="text" name="address" id="address" placeholder="address">
-				<span id="age_err" style="color:red">${age_err!=null? address_err : ''}</span>
+				<span id="address_err" style="color:red">${address_err!=null? address_err : ''}</span>
 			</div>
 			<!-- bottom submit and reset button -->
 			<input type="submit" class="btn btn-primary"></input>
