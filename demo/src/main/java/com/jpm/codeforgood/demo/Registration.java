@@ -31,7 +31,7 @@ public class Registration extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String name = request.getParameter("name");
 		String age = request.getParameter("age");
-		String gender = request.getParameter("gender");
+//		String gender = request.getParameter("gender");
 		String email = request.getParameter("email");
 		String phone = request.getParameter("phone");
 		String zip = request.getParameter("zip");
@@ -46,10 +46,10 @@ public class Registration extends HttpServlet {
     		request.setAttribute("age_err", "please enter your age");
     		next = "/registration.jsp";
     	}
-    	if (gender == null) {
-    		request.setAttribute("gender_err", "please select your gender");
-    		next = "/registration.jsp";
-    	}
+//    	if (gender == null) {
+//    		request.setAttribute("gender_err", "please select your gender");
+//    		next = "/registration.jsp";
+//    	}
     	if (email == ""){
     		request.setAttribute("email_err", "please enter your email address");
     		next = "/registration.jsp";

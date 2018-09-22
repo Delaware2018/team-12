@@ -9,6 +9,7 @@
 </head>
 <body>
 	<div id="body-wrapper" class="container containder-fluid my-5">
+		<h1>Registration</h1><br>
 		<form class="form" method="POST" name="registration-form" action="Registration">
 			<div class="form-group">
 				<label for="name">Name: </label>
@@ -20,7 +21,7 @@
 				<input type="text" name="age" id="age" placeholder="age">
 				<span id="age_err" style="color:red">${age_err!=null? age_err : ''}</span>
 			</div>
-			<div class="form-group">
+			<%-- <div class="form-group">
 				<label for="gender">Gender: </label> <select
 					class="form-control" id="gender">
 					<option>???</option>
@@ -28,7 +29,7 @@
 					<option>Female</option>
 				</select>
 				<span id="gender_err" style="color:red">${gender_err!=null? gender_err : ''}</span>
-			</div>
+			</div> --%>
 			<div class="form-group">
 				<label for="email">Email: </label>
 				<input type="text" name="email" id="email" placeholder="email"> 
