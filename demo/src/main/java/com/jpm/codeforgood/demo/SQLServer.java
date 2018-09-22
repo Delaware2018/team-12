@@ -57,6 +57,7 @@ public class SQLServer {
             stmt.execute("DROP TABLE IF EXISTS ITEMS");
             stmt.execute("DROP TABLE IF EXISTS  DONATE");
             
+            //Create Users table
             String sql = "CREATE TABLE USERS " + 
                     "(user_id INTEGER, " + 
                     " name VARCHAR(255), " +   
@@ -69,6 +70,7 @@ public class SQLServer {
                     " PRIMARY KEY ( user_id ))"; 
             stmt.executeUpdate(sql);
             
+            //Create Items table
             sql =  "CREATE TABLE ITEMS " + 
                     "(item_id INTEGER, " + 
                     " item_type VARCHAR(255), " +  
@@ -79,6 +81,8 @@ public class SQLServer {
                     " PRIMARY KEY ( item_id ))"; 
             stmt.executeUpdate(sql);
             
+            
+           //Create Donate table
             sql = "CREATE TABLE DONATE "+
             		"(donate_id INTEGER, "+
             		"donation_date DATE, "+
