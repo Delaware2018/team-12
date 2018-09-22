@@ -11,8 +11,8 @@
 	<div id="body-wrapper" class="container containder-fluid my-5">
 		<h1 class="display-1">Donate</h1>
 		<form class="form" method="POST" name="donate-form" action="Donate">
-			<button name="pickup" type="button" class="btn btn-primary btn-lg btn-block my-5">Pickup</button>
-			<button name="dropoff" type="button" class="btn btn-danger btn-lg btn-block my-5">Dropoff</button>
+			<input type="button" value="Pickup" class="btn btn-primary btn-lg btn-block my-5" onclick="window.location.href='pickup.jsp'" />
+			<input type="button" value="Dropoff" class="btn btn-danger btn-lg btn-block my-5" onclick="window.location.href='dropoff.jsp'" />
 		</form>
 	</div>
 </body>

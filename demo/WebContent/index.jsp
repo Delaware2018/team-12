@@ -42,25 +42,25 @@
 					<img class="d-block w-100"
 						width="100"
 						height="100"
-						src="../../ui/img/icons/bed.svg"
+						src="./img/bed.svg"
 						alt="First slide">
 				</div>
 				<div class="carousel-item">
 					<img class="d-block w-100"
 						width="100"
 						height="100"
-						src="../../ui/img/icons/clock.svg"
+						src="./img/clock.svg"
 						alt="Second slide">
 				</div>
 				<div class="carousel-item">
 					<img class="d-block w-100"
 						width="100"
 						height="100"
-						src="../../ui/img/icons/cutlery.svg"
+						src="./img/cutlery.svg"
 						alt="Third slide">
 				</div>
 			</div>
-			<a class="carousel-control-prev" href="#featured-vitems"
+			<a class="carousel-control-prev" href="#featured-items"
 				role="button" data-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="sr-only">Previous</span>
@@ -73,6 +73,24 @@
 		</div>
 		<div>
 			<h1>Goodwill Stories</h1>
+			<!-- Populate cards -->
+			<div class="container">
+				<div class="card" >
+					<div class="card-body">
+						<h5 class="card-title">Rebecca's Journey To A New Life!</h5>
+						<h6 class="card-subtitle mb-2 text-muted">#GoodwillStories</h6>
+						<p class="card-text">Some quick example text to build on the
+							card title and make up the bulk of the card's content.</p>
+						<a class="btn btn-primary" data-toggle="collapse"
+							href="#collapseExample" role="button" aria-expanded="false"
+							aria-controls="collapseExample">See More v</a>
+						<div class="collapse" id="collapseExample">
+							<div class="card card-body bg-light my-3">Here's more about Rebecca's story and her journey!</div>
+							<a href="https://twitter.com/intent/tweet?button_hashtag=GoodwillStories&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #LoveTwitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	
